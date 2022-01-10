@@ -1,0 +1,38 @@
+#map {
+  height: 60vh;
+  margin: 15px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.map-button {
+  margin-top: 50px;
+  width: 200px;
+  height: 70px;
+  background-color: aqua;
+  border-radius: 15px;
+}
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+.data {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+}
+
+#jsdata td {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}

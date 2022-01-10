@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maps hmasa</title>
+    <link rel="stylesheet" href="./task1.css" />
+  </head>
+  <body>
+    <div class="button-container">
+      <button id="map-button" class="map-button" onclick="initMap()">
+        Start Tracking Postion
+      </button>
+    </div>
+    <div class="map-container">
+      <div style="width: 90%" id="map"></div>
+    </div>
+    <div class="data">
+      <fieldset>
+        <legend>Saved Locations</legend>
+        <div>
+          <table>
+            <tbody id="jsdata"></tbody>
+          </table>
+        </div>
+      </fieldset>
+    </div>
+    <script
+      async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqd1XS0Jt-VUrhm_x1nY9bmQEk5xwf8Sc&libraries=places"
+    ></script>
+    <script src="./task1.js"></script>
+  </body>
+</html>
